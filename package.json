@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-gcf-demo",
+  "version": "1.0.0",
+  "description": "Google Cloud Functions to process OAuth2 input and execute Google API calls",
+  "main": "index.js",
+  "author": "Noah Levitt",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.0",
+    "@google-cloud/storage": "^5.1.2",
+    "express-validator": "^6.6.1",
+    "googleapis": "^57.0.0"
+  }
+}
